@@ -6344,8 +6344,9 @@ body:not(.signed-in) .co-signed {
   font: 700 max(13px, calc(15 * var(--u))) / 1.2 var(--urb);
   color: var(--mute);
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 1px;
   transition: color 0.3s var(--ou);
+  text-decoration-thickness: 0.2px;
 }
 .cart-line-price button:hover {
   color: var(--teal);
@@ -6568,6 +6569,7 @@ body:not(.co-out) .co-out-only {
   }
   .pur-hero.ihero.band .copy {
     padding: 40px 24px 0;
+    gap: 16px;
   }
   .page-cart .pur-hero .copy > .lbl,
   .page-checkout .pur-hero .copy > .lbl {
@@ -6671,6 +6673,7 @@ body:not(.co-out) .co-out-only {
   .pay-mod {
     flex-direction: column;
     padding: 0 24px;
+    gap: 24px
   }
   .pay-status {
     padding: 32px 24px;
