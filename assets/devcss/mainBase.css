@@ -140,7 +140,6 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding: 80px 0px;
 }
 html {
   scroll-behavior: smooth;
@@ -163,4 +162,5 @@ p{
 ul,ol{
   padding-left: 0px;
   margin-bottom: 0px;
+
 }
