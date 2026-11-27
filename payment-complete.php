@@ -1,4 +1,9 @@
 <?php include 'includes/header.php'; ?>
+<style>
+  .pay-mod{
+    z-index: 0;
+  }
+</style>
 
 <section class="ihero band pur-hero in" aria-label="Payment complete">
   <div class="pur-media">

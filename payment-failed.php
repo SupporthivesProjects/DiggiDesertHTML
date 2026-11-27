@@ -1,5 +1,9 @@
 <?php include 'includes/header.php'; ?>
-
+<style>
+  .pay-mod{
+    z-index: 0;
+  }
+</style>
   <section class="ihero band pur-hero in" aria-label="Payment failed">
     <div class="pur-media">
       <img src="assets/img/payment-failed-hero.jpg" width="1440" height="960" alt="A closed teal door in a whitewashed wall with a terracotta vase beside it">
