@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
   <section class="ihero band pur-hero in" aria-label="Checkout">
+    <div class="container">
     <div class="pur-media">
       <img src="assets/img/checkout-hero.jpg" width="1440" height="960" alt="An old brass key and a small teal dish resting on folded linen on a wooden table">
     </div>
@@ -17,6 +18,7 @@
       <p class="lead fx co-in-only" style="--d:.9s">Check your details and your order, <br>then finish paying on a secure page. </p>
       <p class="co-signed fx co-in-only" style="--d:1s">Signed in as <span data-user-name="">John Smith</span>
       </p>
+    </div>
     </div>
   </section>
   <section class="co-mod wrap" id="coMod" aria-label="Checkout">
@@ -168,24 +170,6 @@
                   <option>Canada</option>
                   <option>Australia</option>
                 </select>
-                <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                  <span>United Kingdom</span>
-                  <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                    <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
-                </button>
-                <ul class="sel-list" role="listbox">
-                  <li role="option" data-value="United Kingdom" aria-selected="true">United Kingdom</li>
-                  <li role="option" data-value="Ireland" aria-selected="false">Ireland</li>
-                  <li role="option" data-value="France" aria-selected="false">France</li>
-                  <li role="option" data-value="Germany" aria-selected="false">Germany</li>
-                  <li role="option" data-value="Spain" aria-selected="false">Spain</li>
-                  <li role="option" data-value="Italy" aria-selected="false">Italy</li>
-                  <li role="option" data-value="Netherlands" aria-selected="false">Netherlands</li>
-                  <li role="option" data-value="United States" aria-selected="false">United States</li>
-                  <li role="option" data-value="Canada" aria-selected="false">Canada</li>
-                  <li role="option" data-value="Australia" aria-selected="false">Australia</li>
-                </ul>
               </div>
               <span class="msg">Choose your country.</span>
             </div>
@@ -203,7 +187,7 @@
         </div>
       </form>
     </div>
-    <aside class="pur-sum on" data-sticky="120" data-r="" aria-labelledby="sumT" style="position: relative; transform: translate3d(0px, 0px, 0px); --d: 0s;">
+    <aside class="pur-sum on" data-r="" aria-labelledby="sumT">
       <h2 id="sumT">Summary</h2>
       <div class="pur-sum-lines" id="coLines">
         <div class="pur-sum-line" data-id="seo">

@@ -27,22 +27,11 @@
           <div class="cart-line-ctl tier">
             <span class="lbl-s sage" id="tier-seo">Tier</span>
             <div class="sel">
-              <select data-k="tier" aria-labelledby="tier-seo">
-                <option value="bronze">Bronze</option>
-                <option value="silver" selected="">Silver</option>
-                <option value="gold">Gold</option>
-              </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                <span>Silver</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="bronze" aria-selected="false">Bronze</li>
-                <li role="option" data-value="silver" aria-selected="true">Silver</li>
-                <li role="option" data-value="gold" aria-selected="false">Gold</li>
-              </ul>
+                <select data-k="tier" aria-labelledby="tier-seo">
+                    <option value="bronze">Bronze</option>
+                    <option value="silver" selected>Silver</option>
+                    <option value="gold">Gold</option>
+                </select>
             </div>
           </div>
           <div class="cart-line-ctl term">
@@ -54,18 +43,6 @@
                 <option value="6">6 months</option>
                 <option value="12" selected="">12 months</option>
               </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                <span>12 months</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="1" aria-selected="false">1 month</li>
-                <li role="option" data-value="3" aria-selected="false">3 months</li>
-                <li role="option" data-value="6" aria-selected="false">6 months</li>
-                <li role="option" data-value="12" aria-selected="true">12 months</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -89,17 +66,6 @@
                 <option value="silver">Silver</option>
                 <option value="gold">Gold</option>
               </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                <span>Bronze</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="bronze" aria-selected="true">Bronze</li>
-                <li role="option" data-value="silver" aria-selected="false">Silver</li>
-                <li role="option" data-value="gold" aria-selected="false">Gold</li>
-              </ul>
             </div>
           </div>
           <div class="cart-line-ctl term">
@@ -108,15 +74,6 @@
               <select data-k="term" aria-labelledby="term-ux-ui" disabled="">
                 <option value="1" selected="">One price</option>
               </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false" disabled="">
-                <span>One price</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="1" aria-selected="true">One price</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -140,17 +97,6 @@
                 <option value="silver">Silver</option>
                 <option value="gold">Gold</option>
               </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                <span>Bronze</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="bronze" aria-selected="true">Bronze</li>
-                <li role="option" data-value="silver" aria-selected="false">Silver</li>
-                <li role="option" data-value="gold" aria-selected="false">Gold</li>
-              </ul>
             </div>
           </div>
           <div class="cart-line-ctl term">
@@ -162,18 +108,6 @@
                 <option value="6">6 months</option>
                 <option value="12">12 months</option>
               </select>
-              <button type="button" class="sel-btn" aria-haspopup="listbox" aria-expanded="false">
-                <span>1 month</span>
-                <svg viewBox="0 0 13.5 7.5" fill="none" aria-hidden="true">
-                  <path d="M.75.75l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-              <ul class="sel-list" role="listbox">
-                <li role="option" data-value="1" aria-selected="true">1 month</li>
-                <li role="option" data-value="3" aria-selected="false">3 months</li>
-                <li role="option" data-value="6" aria-selected="false">6 months</li>
-                <li role="option" data-value="12" aria-selected="false">12 months</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -183,7 +117,7 @@
         </div>
       </article>
     </div>
-    <aside class="pur-sum on" data-sticky="120" data-r="" aria-labelledby="sumT" style="position: relative; --d: 0.16s; transform: translate3d(0px, 0.73px, 0px);">
+    <aside class="pur-sum on" data-r="" aria-labelledby="sumT">
       <h2 id="sumT">Summary</h2>
       <div class="pur-sum-lines" id="sumLines">
         <div class="pur-sum-line" data-id="seo">
