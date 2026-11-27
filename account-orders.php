@@ -5,7 +5,7 @@
   </div>
   <div class="ov"></div>
   <div class="acct-copy">
-    <p class="lbl lsage" data-r>Signed in as <span data-user-name>John Smith</span>
+    <p class="lbl lsage mb-fs-14" data-r>Signed in as John Smith
     </p>
     <h1 class="t-h1" data-lines>Orders and invoices</h1>
     <p class="lead" data-r>Every order you have placed, with its invoice ready to download.</p>
