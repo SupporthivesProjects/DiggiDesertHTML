@@ -5,8 +5,7 @@
   </div>
   <div class="ov"></div>
   <div class="acct-copy">
-    <p class="lbl lsage" data-r>Signed in as <span data-user-name>John Smith</span>
-    </p>
+    <p class="lbl lsage mb-fs-14" data-r>Signed in as John Smith</p>
     <h1 class="t-h1" data-lines>Account details</h1>
     <p class="lead" data-r>Your details and password. Change either one at any time.</p>
   </div>

@@ -5,8 +5,7 @@
   </div>
   <div class="ov"></div>
   <div class="acct-copy">
-    <p class="lbl lsage" data-r>Signed in as <span data-user-name>John Smith</span>
-    </p>
+    <p class="lbl lsage mb-fs-14" data-r>Signed in as John Smith</p>
     <h1 class="t-h1" data-lines>Deliverables</h1>
     <p class="lead" data-r>Reports, audits and creative files from your packages, ready to download.</p>
   </div>
@@ -33,7 +32,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">SEO</p>
+        <p class="lbl sage mb-fs-14">SEO</p>
         <h2>Keyword plan</h2>
         <p class="dl-meta">From order DD10482, ordered 17 Nov 2026</p>
       </div>
@@ -48,7 +47,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">UX/UI</p>
+        <p class="lbl sage mb-fs-14">UX/UI</p>
         <h2>Page layouts for review</h2>
         <p class="dl-meta">From order DD10482, ordered 17 Nov 2026</p>
       </div>
@@ -63,7 +62,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">PPC</p>
+        <p class="lbl sage mb-fs-14">PPC</p>
         <h2>Monthly report, September</h2>
         <p class="dl-meta">From order DD10417, delivered 2 Oct 2026</p>
       </div>
@@ -78,7 +77,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">Social media</p>
+        <p class="lbl sage mb-fs-14">Social media</p>
         <h2>Post pack, September</h2>
         <p class="dl-meta">From order DD10417, delivered 30 Sep 2026</p>
       </div>
@@ -93,7 +92,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">SEO</p>
+        <p class="lbl sage mb-fs-14">SEO</p>
         <h2>Monthly report, August</h2>
         <p class="dl-meta">From order DD10391, delivered 10 Sep 2026</p>
       </div>
@@ -108,7 +107,7 @@
         <path d="M37 22L31 16H19V40H37V22ZM31 16V22H37" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
       </svg>
       <div class="dl-copy">
-        <p class="lbl sage">SEO</p>
+        <p class="lbl sage mb-fs-14">SEO</p>
         <h2>Keyword analysis</h2>
         <p class="dl-meta">From order DD10391, delivered 18 Aug 2026</p>
       </div>
