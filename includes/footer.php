@@ -35,6 +35,7 @@
         <script src="./uiframe/js/home-js.js"></script>
         <script src="assets/site-assest/catalogue.js"></script>
         <script src="assets/site-assest/site.js"></script>
+        <script src="assets/site-assest/cart.js"></script>
         <script>
             $(document).ready(function () {
             $("#menuBtn").click(function () {

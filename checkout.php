@@ -1,7 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
   <section class="ihero band pur-hero in" aria-label="Checkout">
-    <div class="container">
     <div class="pur-media">
       <img src="assets/img/checkout-hero.jpg" width="1440" height="960" alt="An old brass key and a small teal dish resting on folded linen on a wooden table">
     </div>
@@ -18,7 +17,6 @@
       <p class="lead fx co-in-only" style="--d:.9s">Check your details and your order, <br>then finish paying on a secure page. </p>
       <p class="co-signed fx co-in-only" style="--d:1s">Signed in as <span data-user-name="">John Smith</span>
       </p>
-    </div>
     </div>
   </section>
   <section class="co-mod wrap" id="coMod" aria-label="Checkout">
