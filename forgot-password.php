@@ -6,23 +6,23 @@
   </div>
   <div class="ov"></div>
   <div class="auth-card" data-r>
-    <div class="auth-head">
-      <p class="lbl sage">Account help</p>
+    <div class="auth-head auth-head1">
+      <p class="lbl sage lb2">Account help</p>
       <h1 data-lines>Reset your password</h1>
-      <p style="max-width:330px">Enter the email you signed up with and we will send you a link to set a new one.</p>
+      <p class="para" style="max-width:330px">Enter the email you signed up with and we will send you a link to set a new one.</p>
     </div>
     <form class="auth-form" id="forgot" novalidate>
       <div class="frow auth-one">
-        <div class="field">
+        <div class="field field1">
           <label for="email">Email</label>
           <input id="email" name="email" type="email" required placeholder="john@example.com" autocomplete="email">
           <span class="msg">Enter a valid email address.</span>
         </div>
-        <button class="btn" type="submit">Send reset link</button>
+        <button class="btn btn1" type="submit">Send reset link</button>
       </div>
     </form>
     <div class="auth-foot">
-      <div class="rule"></div>
+      <div class="rule rule1"></div>
       <p>Remembered it? <a href="sign-in.php">Sign in</a>
       </p>
     </div>
@@ -68,7 +68,7 @@
     </div>
     <h2 id="checkT">Check your email</h2>
     <p>A reset link is on its way to john@example.com.</p>
-    <div class="rule"></div>
+    <div class="rule "></div>
     <button class="btn" type="button" data-pop-close="new-password.php">Done</button>
   </div>
 </div>

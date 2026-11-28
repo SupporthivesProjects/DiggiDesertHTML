@@ -1,0 +1,62 @@
+.signup-check a{
+    text-decoration: none;
+}
+
+.rule1{
+    background: none;
+}
+
+.auth-submit1 .btn{
+    min-width: 0px;
+}
+
+
+@media screen and (min-width: 1921px) and (max-width: 3500px) {
+    .auth-head1 .para {
+        max-width: 500px !important;
+        font-size: 25px !important;
+    }
+
+
+
+    .auth-submit1{
+        gap: 290px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .auth-head1 p{
+        text-wrap: unset !important;
+    }
+
+    .frow1{
+        gap:24px !important;
+    }
+
+    .btn1{
+        display: flex;
+padding: 16px 28px !important;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+    }
+
+    .auth-head1 .lb2{
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width:1920px){
+    .lb2{
+        font-size: 14px !important;
+    }
+}
+@media screen and (min-width:1079px) and (max-width:1919px){
+    .auth-one .field1{
+        width:50% !important;
+    }
+
+    .auth-one .btn1{
+        min-width: 50%;
+    }
+}
