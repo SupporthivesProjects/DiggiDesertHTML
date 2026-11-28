@@ -1,0 +1,90 @@
+@media only screen and (max-device-width: 600px) {
+
+    .ihero.contact-hero{
+        padding: 0px;
+    }
+
+    .contact-form .submit .btn{
+        height: 50px;
+    }
+
+    .contact-pane{
+        padding: 40px 24px;
+    }
+
+/* SERVICES */
+    .sl-path, .sl-path.short {
+        flex-direction: column;
+        height: auto;
+        padding: 0px 0px 40px;}
+
+
+  .ihero.split2 {
+        flex-direction: column-reverse;
+        height: auto;
+        min-height: 0;
+        padding: 0;
+    }
+
+    .ihero.split2 .media{
+height:450px;
+    }
+
+    .ihero.split2 .pane{
+        display: flex;
+padding: 56px 24px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+    }
+
+.ihero.split2 .pane .copy{
+gap:24px;
+}
+
+.sl-rows .sl-row:last-child {
+    border-bottom: none;
+}
+
+.sv-brief, .sv-brief.wide{
+    padding: 0px;
+}
+
+/* BUILD YOUR OWN */
+
+    .ihero.full, .ihero.full.short {
+        height: auto;
+        min-height: 560px;
+        padding: 120px 24px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+.picker .controls .seg{
+padding: 6px;
+align-items: flex-start;
+align-self: stretch;
+border-radius: 24px;
+background: var(--brand-stone, #E7E5E0);
+}
+
+    .byo .picker .controls .seg button{
+        display: flex;
+padding: 10px 20px;
+align-items: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+  

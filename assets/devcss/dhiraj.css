@@ -1,0 +1,70 @@
+/* CONTACT US */
+
+    .contact-pane {
+    position: relative;
+    display: flex;
+    flex:none;
+    min-width: 0;
+    background: var(--teal);
+    padding: calc(147 * var(--u)) calc(160 * var(--u)) calc(77 * var(--u));
+}
+
+.contact-form .submit .btn{
+    height: 78px;
+}
+
+.check a {
+    color: var(--teal);
+    text-decoration: none;
+    text-underline-offset: 3px;
+}
+
+.texture{
+    background:url(../img/texture-sand.jpg) center / cover;
+}
+/* SERVICES */
+.ihero.split2 .pane {
+    position: relative;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+    .ln{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .sl-path .btn:hover {
+        color: var(--base-white, #FFF);
+
+    }
+
+    /* .sl-path .media.clip > img{
+            object-fit: fill;
+    } */
+
+    .sl-path .media.clip > img , .sv-brief .media.clip > img {
+    top: 0%;
+    height: 100%;
+}
+/* BUILD YOUR OWN */
+.mix .btn:hover ,.sv-brief .cp .btn:hover{
+    color: #FFF;
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.byo-how .media img, .byo-brief .media img {
+    top: 0;
+    height: 100%;
+    will-change: transform;
+}
+
+.picker:not(.on) .more {
+  pointer-events: none;
+}
+
+.picker.on .more {
+  pointer-events: auto;
+}
+
