@@ -21,7 +21,47 @@
           </a>
           <nav class="o2-pills fx" style="--d:.3s" aria-label="Main"><span class="o2-ind" aria-hidden="true"></span><a href="index.php" class=" hot" aria-current="page">Home</a><a href="services.php" class="">Services</a><a href="about.php" class="">About</a><a href="contact.php" class="">Contact</a></nav>
           <div class="o2-act">
-            <div class="curw fx" style="--d:.45s"><button class="o2-glass o2-cur cur-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Currency, GBP">£</button><ul class="cur-menu" role="listbox" aria-label="Currency"></ul></div>
+            <div class="curw fx" style="--d:.45s">
+              <button class="o2-glass o2-cur cur-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Currency, GBP">£</button>
+              <ul class="cur-menu" role="listbox" aria-label="Currency">
+                <li role="option" data-cur="GBP" aria-selected="false" class="">
+                  <span>£ GBP</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+                <li role="option" data-cur="USD" aria-selected="false" class="focus">
+                  <span>$ USD</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+                <li role="option" data-cur="EUR" aria-selected="true" class="">
+                  <span>€ EUR</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+                <li role="option" data-cur="CAD" aria-selected="false" class="">
+                  <span>C$ CAD</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+                <li role="option" data-cur="AUD" aria-selected="false" class="">
+                  <span>A$ AUD</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+                <li role="option" data-cur="AUD" aria-selected="false" class="">
+                  <span>A$ INR</span>
+                  <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                    <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </li>
+              </ul>
+            </div>
             <a href="sign-in.php" class="o2-glass si fx" style="--d:.5s">Sign in</a>
             <a href="cart.php" class="o2-cart fx" style="--d:.55s"><span>Cart (<span class="n cartn">0</span>)</span></a>
             <button class="o2-burger fx" style="--d:.55s" type="button" aria-label="Open menu" aria-controls="menu"><svg width="16" height="8" viewBox="0 0 16 8" fill="none" aria-hidden="true"><path d="M0 1h16M0 7h16" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg></button>
@@ -92,6 +132,12 @@
               </li>
               <li role="option" data-cur="AUD" aria-selected="false">
                 <span>A$ AUD</span>
+                <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
+                  <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </li>
+              <li role="option" data-cur="INR" aria-selected="false">
+                <span>N$ INR</span>
                 <svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true">
                   <path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
