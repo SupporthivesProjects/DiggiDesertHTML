@@ -1,7 +1,26 @@
+/* -------------------------header----------------------------- */
 
 
-
-
+.o2-logo b {
+    color: var(--base-white, #FFF);
+    font-family: "Albert Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 4.08px;
+}
+.o2-pills a {
+    color: var(--base-white, #FFF);
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.o2-pills a.hot{
+    color: var(--brand-deep-teal, #0F2829);
+}
 
 
 
@@ -13,4 +32,40 @@
 .foot {
     z-index: 0;
     margin-top: -3px;
+}
+.brand p {
+    color: var(--brand-paper, #F4F3EF);
+    font-family: "Albert Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.cols .lbl{
+    color: var(--brand-sage, #6B8F8A);
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+}
+.co span{
+    color: var(--brand-paper, #F4F3EF);
+    font-family: "Albert Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: .6;
+}
+.co .det{
+    color: var(--brand-paper, #F4F3EF);
+    font-family: "Albert Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: .7;
 }

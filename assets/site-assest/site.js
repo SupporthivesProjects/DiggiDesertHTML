@@ -8,7 +8,7 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
   const root = document.documentElement;
-  const PAGE = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
+  const PAGE = (location.pathname.split('/').pop() || 'index.php').replace(/\.php$/, '') || 'index';
   const CROSSFADE = 'PageRevealEvent' in window && location.protocol !== 'file:';
   const EASE_OUT = (k) => 1 - Math.pow(1 - k, 3);
   const STICKY_TOP = 120;
@@ -60,10 +60,10 @@
   const packState = () => 's=' + b64e(JSON.stringify({ state, consent }));
 
   /* ---------- page transitions: the browser crossfades the two documents; older browsers fade out then in ---------- */
-  const INTERNAL = /^\/?([a-z0-9-]+(\.html)?)?(\?[^#]*)?(#.*)?$/i;
-  const MOVED = { discovery: 'services.html#discovery', decision: 'services.html#decision' };
-  const moved = (href) => { const m = href.match(/^\/?(discovery|decision)(\.html)?([?#].*)?$/i); return m ? MOVED[m[1].toLowerCase()] : href; };
-  const pageOf = (href) => { const p = href.replace(/[?#].*$/, '').replace(/^\//, ''); return p ? (p.endsWith('.html') ? p : p + '.html') : 'index.html'; };
+  const INTERNAL = /^\/?([a-z0-9-]+(\.php)?)?(\?[^#]*)?(#.*)?$/i;
+  const MOVED = { discovery: 'services.php#discovery', decision: 'services.php#decision' };
+  const moved = (href) => { const m = href.match(/^\/?(discovery|decision)(\.php)?([?#].*)?$/i); return m ? MOVED[m[1].toLowerCase()] : href; };
+  const pageOf = (href) => { const p = href.replace(/[?#].*$/, '').replace(/^\//, ''); return p ? (p.endsWith('.php') ? p : p + '.php') : 'index.php'; };
   let leaving = false;
   function go(href, a) {
     if (leaving) return;
@@ -108,7 +108,7 @@
       href = moved(href);
       const hash = href.includes('#') ? href.split('#')[1] : '';
       const page = pageOf(href);
-      if (page === PAGE + '.html' && hash) { const t = document.getElementById(hash); if (t) { scTo(offTop(t) - 96); return; } }
+      if (page === PAGE + '.php' && hash) { const t = document.getElementById(hash); if (t) { scTo(offTop(t) - 96); return; } }
       go(href.replace(/#.*$/, '') || page, hash || null);
       return;
     }
@@ -187,7 +187,7 @@
   const cartCounts = $$('.cartn');
   function paintCart() { const n = state.cart.length; cartCounts.forEach((el) => { el.textContent = n; }); }
   function paintAuth() {
-    $$('.si').forEach((el) => { el.textContent = state.user ? 'Account' : 'Sign in'; el.setAttribute('href', state.user ? 'account-orders.html' : 'sign-in.html'); });
+    $$('.si').forEach((el) => { el.textContent = state.user ? 'Account' : 'Sign in'; el.setAttribute('href', state.user ? 'account-orders.php' : 'sign-in.php'); });
     $$('[data-user-name]').forEach((el) => { el.textContent = state.user ? state.user.name : ''; });
     document.body.classList.toggle('signed-in', !!state.user);
   }
@@ -204,7 +204,7 @@
   const TICK = '<svg class="tk" viewBox="0 0 12 9" fill="none" aria-hidden="true"><path d="M1 4.5L4.2 7.7L11 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   function initCur(wrap) {
     const btn = $('.cur-btn', wrap), list = $('.cur-menu', wrap);
-    list.innerHTML = CURS.map((k) => '<li role="option" data-cur="' + k + '"><span>' + C.CURRENCIES[k].symbol + ' ' + k + '</span>' + TICK + '</li>').join('');
+    // list.innerHTML = CURS.map((k) => '<li role="option" data-cur="' + k + '"><span>' + C.CURRENCIES[k].symbol + ' ' + k + '</span>' + TICK + '</li>').join('');
     const items = $$('li', list);
     const paint = () => { items.forEach((li) => li.setAttribute('aria-selected', li.dataset.cur === state.cur)); const c = C.CURRENCIES[state.cur]; btn.textContent = btn.dataset.full != null ? c.symbol + ' ' + c.code : c.symbol; btn.setAttribute('aria-label', 'Currency, ' + c.code); };
     let fi = -1;
@@ -521,13 +521,13 @@
   addEventListener('keydown', (e) => { if ((e.key === 'r' || e.key === 'R') && !e.target.closest('input,textarea') && !e.metaKey && !e.ctrlKey) play(); });
 
   /* ---------- auth and payment demo ---------- */
-  function signIn(name) { state.user = { name: name || 'John Smith' }; const to = state.after || 'account-orders.html'; state.after = null; save(); paintAuth(); return to; }
+  function signIn(name) { state.user = { name: name || 'John Smith' }; const to = state.after || 'account-orders.php'; state.after = null; save(); paintAuth(); return to; }
   function signOut() { state.user = null; save(); paintAuth(); }
   function pay(ok) {
     const flag = new URLSearchParams(location.search).get('pay');
     const good = ok == null ? flag !== 'fail' : !!ok;
     if (good) { state.order = { ref: 'DD10482', lines: state.cart.map((l) => ({ ...l })), cur: state.cur, placed: new Date().toISOString() }; state.cart = []; save(); paintCart(); }
-    go(good ? 'payment-complete.html' : 'payment-failed.html');
+    go(good ? 'payment-complete.php' : 'payment-failed.php');
   }
 
   /* ---------- console namespace ---------- */

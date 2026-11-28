@@ -13,4 +13,10 @@
    
 }
 
+@media only screen and (max-width: 600px) {
+  .cols a{
+    font-size: 17px;
+  }
+    
+}
 
