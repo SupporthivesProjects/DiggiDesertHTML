@@ -1,9 +1,9 @@
 <?php include 'includes/header.php'; ?>
 
-<section class="ihero stackd co-hero about-hero" aria-labelledby="aboutT">
+<section class="ihero stackd co-hero about-hero about_hero_out" aria-labelledby="aboutT">
   <div class="texture"></div>
   <div class="copy">
-    <p class="lbl lsage fx" style="--d:.6s">Who we are</p>
+    <p class="lbl lsage fx about_p" style="--d:.6s">Who we are</p>
     <h1 class="t-display" id="aboutT" data-lines>About Diggidesert</h1>
     <p class="lead fx" style="--d:.9s">A digital marketing studio that sells its work as packages. Every price sits on the page, every term has an end date, and everything we deliver lands in your account.</p>
   </div>
@@ -15,17 +15,17 @@
 
 <section class="about-view wrap sec" aria-labelledby="viewT">
   <div class="about-view-head">
-    <p class="lbl sage" data-r>Our view</p>
-    <h2 class="t-h2" id="viewT" data-lines>Why we put the price<br>on the page</h2>
+    <p class="lbl sage about_p" data-r>Our view</p>
+    <h2 class="t-h2 about_view_h2" id="viewT" data-lines>Why we put the price on the page</h2>
   </div>
-  <div class="about-view-copy">
+  <div class="about-view-copy about_view_copy_out">
     <p class="lead" data-r>Most agencies start with a call, then a proposal, then a number. By the time you see a price, you have already given them a week.</p>
     <p class="lead" data-r>We do it the other way round. Each service comes in three tiers, with what each tier includes listed beside its price, so you can compare and decide on your own time.</p>
     <p class="lead" data-r>When something does not fit a package, you send us a brief and we reply with a quote.</p>
   </div>
 </section>
 
-<section class="about-how stone wrap sec" aria-labelledby="howT">
+<section class="about-how stone wrap sec about_how_out" aria-labelledby="howT">
   <div class="about-how-copy">
     <div class="about-how-head">
       <h2 class="t-h2" id="howT" data-lines>How we work</h2>
@@ -45,12 +45,12 @@
   <div class="about-rules-in">
     <div class="head">
       <div class="about-rules-head">
-        <p class="lbl lsage" data-r>House rules</p>
+        <p class="lbl lsage about_p" data-r>House rules</p>
         <h2 class="t-h2" id="rulesT" data-lines>What we will not do</h2>
       </div>
       <p class="lead" data-r>A few things most agencies do that we leave out on purpose.</p>
     </div>
-    <div class="about-rules-grid">
+    <div class="about-rules-grid about_rules_out">
       <div class="about-rule" data-r><span class="t-numeral">01</span><h3 class="t-h4">Send you proposals</h3><p>No discovery calls and no proposals. Everything you need to choose is already on the page.</p></div>
       <div class="about-rule" data-r><span class="t-numeral">02</span><h3 class="t-h4">Add checkout extras</h3><p>The cart holds what you picked and nothing else. The price you saw is the price you pay.</p></div>
       <div class="about-rule" data-r><span class="t-numeral">03</span><h3 class="t-h4">Talk in jargon</h3><p>Reports and replies come in plain words. When a term matters, we explain it.</p></div>
@@ -60,13 +60,13 @@
 
 <section class="about-who wrap" aria-labelledby="whoT">
   <div class="about-who-head">
-    <p class="lbl sage" data-r>Who we work with</p>
+    <p class="lbl sage about_p" data-r>Who we work with</p>
     <h2 class="t-h2" id="whoT" data-lines>Businesses that know what they need</h2>
     <p class="lead" data-r>If you know roughly what you are after and want to see the cost before you commit, start with a path or build your own mix.</p>
   </div>
   <div class="about-who-actions" data-r>
-    <a href="services.php" class="btn">Explore services</a>
-    <a href="contact.php" class="btn outline">Contact us</a>
+    <a href="services.php" class="btn index_btn_about">Explore services</a>
+    <a href="contact.php" class="btn outline about_btn_outline">Contact us</a>
   </div>
 </section>
 
